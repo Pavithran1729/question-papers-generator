@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('st_peter_s_college_of_engineering_and_technology_cover.jpeg'); /* Replace with the actual path */
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    height: 100vh; /* Use viewport height for full screen */
+}
+
+.overlay {
+    position: fixed; /* Fixed position to cover the entire screen */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1; /* Ensure it sits above other elements */
+}
+
+.logo {
+    width: 201px;
+    height: 251px;
+    background: url(spcet_logo.png) no-repeat center center;
+    background-size: contain;
+    margin-bottom: 20px; /* Add some space below the logo */
+}
+
+.header-title, .sub-header-title {
+    font-family: 'Newsreader', serif;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #141E0C;
+    margin: 0; /* Remove default margins */
+}
+
+.header-title {
+    font-size: 50px;
+    line-height: 100%;
+    margin-bottom: 20px; /* Add space below the header */
+}
+
+.sub-header-title {
+    font-size: 44px;
+    line-height: 120%;
+    margin-bottom: 40px; /* Add space below the sub-header */
+}
+
+.dropdown-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Adjust the gap between each row */
+}
+
+.dropdown-row {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adjust the gap between label and dropdown */
+}
+
+label {
+    font-family: 'Newsreader', serif;
+    font-style: normal;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+select {
+    width: 220px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    appearance: none; /* Remove default arrow */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 5"><path fill="none" stroke="black" stroke-width=".5" d="M2 0L0 2h4z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 10px;
+}
+
+select:hover {
+    border-color: #888;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+select:focus {
+    border-color: #555;
+    outline: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+button.submit-btn {
+    background: linear-gradient(135deg, #4CAF50, #45a049); /* Gradient background */
+    color: white; /* White text */
+    padding: 20px 30px; /* Padding */
+    font-size: 20px; /* Font size */
+    border: none; /* Remove border */
+    border-radius: 25px; /* More rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+    margin-top: 0px; /* Add space above the button */
+}
+
+/* Hover effect for the submit button */
+button.submit-btn:hover {
+    background: linear-gradient(135deg, #45a049, #4CAF50); /* Reverse gradient on hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Larger shadow on hover */
+    transform: translateY(-2px); /* Slight lift on hover */
+}
+
+/* Focus effect for the submit button */
+button.submit-btn:focus {
+    outline: none; /* Remove outline */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); /* Larger shadow on focus */
+}

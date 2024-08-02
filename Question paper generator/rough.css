@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('st_peter_s_college_of_engineering_and_technology_cover.jpeg'); /* Replace with the actual path */
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    height: 900px; /* Set the desired height */
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 900px;
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.logo {
+    position: absolute;
+    width: 201px;
+    height: 251px;
+    left: 50%;
+    top: 68px;
+    transform: translateX(-50%);
+    background: url(spcet_logo.png) no-repeat center center;
+    background-size: contain;
+}
+.header-title {
+    position: absolute;
+    width: 1440px;
+    height: 224px;
+    left: 50%;
+    top: 338px;
+    transform: translateX(-50%);
+    font-family: 'Newsreader', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #141E0C;
+}
+.sub-header-title {
+    position: absolute;
+    width: 1440px;
+    height: 118px;
+    left: 50%;
+    top: 490px;
+    transform: translateX(-50%);
+    font-family: 'Newsreader', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #141E0C;
+}
+/* Button 50 Marks */
+/* ... (existing styles) ... */
+
+/* Button 50 Marks */
+.button-50-marks {
+position: absolute;
+width: 255px;
+height: 64px;
+left: 50%;
+top: 680px;
+transform: translateX(-50%);
+background: #476730;
+border-radius: 999px;
+display: flex;
+align-items: center;
+justify-content: center;
+transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+.button-50-marks button {
+font-family: 'Libre Franklin', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 130%;
+color: #FFFFFF;
+background: none;
+border: none;
+cursor: pointer;
+}
+
+/* Hover effect for 50 Marks button */
+.button-50-marks:hover {
+background-color: #3B5222; /* Darker green on hover */
+}
+
+/* Button 100 Marks */
+.button-100-marks {
+position: absolute;
+width: 255px;
+height: 64px;
+left: 50%;
+top: 804px;
+transform: translateX(-50%);
+background: #476730;
+border-radius: 999px;
+display: flex;
+align-items: center;
+justify-content: center;
+transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+.button-100-marks button {
+font-family: 'Libre Franklin', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 130%;
+color: #FFFFFF;
+background: none;
+border: none;
+cursor: pointer;
+}
+
+/* Hover effect for 100 Marks button */
+.button-100-marks:hover {
+background-color: #3B5222; /* Darker green on hover */
+}
